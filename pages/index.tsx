@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Particles, { IOptions } from "react-tsparticles";
+import Particles from "react-tsparticles";
 import { PARTICLE_OPTIONS_MULTIPLE_IMAGES } from "../constants";
 
 const Home: NextPage = () => {
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
-        options={PARTICLE_OPTIONS_MULTIPLE_IMAGES as IOptions}
+        options={PARTICLE_OPTIONS_MULTIPLE_IMAGES as any}
       />
       <Head>
         <title>Aesop Finance | NFT Battle | Staking | Farming</title>
