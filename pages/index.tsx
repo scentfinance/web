@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import Particles, { IOptions } from "react-tsparticles";
+import Particles from "react-tsparticles";
 import { PARTICLE_OPTIONS_MULTIPLE_IMAGES } from "../constants";
 
 const Home: NextPage = () => {
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
-        options={PARTICLE_OPTIONS_MULTIPLE_IMAGES as IOptions}
+        options={PARTICLE_OPTIONS_MULTIPLE_IMAGES as any}
       />
       <Head>
         <title>Aesop Finance | NFT Battle | Staking | Farming</title>
@@ -42,12 +42,12 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
           <a href="https://aesop.finance/battle" className={styles.card}>
             <h2>Play &rarr;</h2>
-            <p>Let's get started to earn.</p>
+            <p>Let&apos;s get started to earn.</p>
           </a>
 
           <a href="https://aesop.finance/beta/battle" className={styles.card}>
             <h2>Play on testnet &rarr;</h2>
-            <p>Let's get started to earn.</p>
+            <p>Let&apos;s get started to train.</p>
           </a>
 
           <a href="https://aesop.finance/docs" className={styles.card}>
