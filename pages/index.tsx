@@ -42,12 +42,12 @@ const Home: NextPage = () => {
         <div className={styles.grid}>
           <a href="https://aesop.finance/battle" className={styles.card}>
             <h2>Play &rarr;</h2>
-            <p>Let's get started to earn.</p>
+            <p>Let&apos;s get started to earn.</p>
           </a>
 
           <a href="https://aesop.finance/beta/battle" className={styles.card}>
             <h2>Play on testnet &rarr;</h2>
-            <p>Let's get started to earn.</p>
+            <p>Let&apos;s get started to train.</p>
           </a>
 
           <a href="https://aesop.finance/docs" className={styles.card}>
