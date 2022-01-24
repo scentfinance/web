@@ -25,14 +25,14 @@ const Home: NextPage = () => {
         options={PARTICLE_OPTIONS_MULTIPLE_IMAGES as any}
       />
       <Head>
-        <title>Aesop Finance | NFT Battle | Staking | Farming</title>
+        <title>Scent Finance | NFT Battle | Staking | Farming</title>
         <meta name="description" content="Decentralized Finance for Gaming" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://aesop.finance">Aesop Finance</a>
+          Welcome to <a href="https://scent.finance">Scent Finance</a>
         </h1>
 
         <p className={styles.description}>
@@ -40,25 +40,25 @@ const Home: NextPage = () => {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://aesop.finance/battle" className={styles.card}>
+          <a href="https://app.scent.finance" className={styles.card}>
             <h2>Play &rarr;</h2>
             <p>Let&apos;s get started to earn.</p>
           </a>
 
-          <a href="https://aesop.finance/beta/battle" className={styles.card}>
+          <a href="https://staging.scent.finance" className={styles.card}>
             <h2>Play on testnet &rarr;</h2>
             <p>Let&apos;s get started to train.</p>
           </a>
 
-          <a href="https://aesop.finance/docs" className={styles.card}>
+          <a href="https://docs.scent.finance" className={styles.card}>
             <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Aesop Finance features.</p>
+            <p>Find in-depth information about Scent Finance features.</p>
           </a>
 
-          <a href="https://aesop.finance/learn" className={styles.card}>
+          <a href="https://docs.scent.finance" className={styles.card}>
             <h2>Learn &rarr;</h2>
             <p>
-              Learn about Aesop Finance in an interactive course with quizzes!
+              Learn about Scent Finance in an interactive course with quizzes!
             </p>
           </a>
 
@@ -69,11 +69,11 @@ const Home: NextPage = () => {
             rel="noopener noreferrer"
           >
             <h2>Telegram &rarr;</h2>
-            <p>Join and discover Aesop Finance telegram group.</p>
+            <p>Join and discover Scent Finance telegram group.</p>
           </a>
 
           <a
-            href="https://discord.gg/pyQMxrpv"
+            href="https://discord.gg/SEBzR9KC4y"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
@@ -86,20 +86,20 @@ const Home: NextPage = () => {
 
       <footer className={styles.footer}>
         <a
-          href="https://aesop.finance"
+          href="https://scent.finance"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{" "}
           <span className={styles.logo}>
             <Image
-              src="/logo.jpg"
-              alt="Aesop Finance Logo"
+              src="/logo.png"
+              alt="Scent Finance Logo"
               width={24}
               height={20}
             />
           </span>
-          Aesop Finance
+          Scent Finance
         </a>
       </footer>
     </div>
