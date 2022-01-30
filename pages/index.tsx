@@ -32,34 +32,52 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://scent.finance">Scent Finance</a>
+          {/* Welcome to <a href="https://scent.finance">Scent Finance</a> */}
         </h1>
 
         <p className={styles.description}>
-          Get started by exploring and joining
+          Decentralized Art and Finance for gamers and all
         </p>
 
         <div className={styles.grid}>
-          <a href="https://app.scent.finance" className={styles.card}>
+          <a
+            href="https://app.scent.finance"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h2>Play &rarr;</h2>
             <p>Let&apos;s get started to earn.</p>
           </a>
 
-          <a href="https://staging.scent.finance" className={styles.card}>
-            <h2>Play on testnet &rarr;</h2>
-            <p>Let&apos;s get started to train.</p>
-          </a>
-
-          <a href="https://docs.scent.finance" className={styles.card}>
+          <a
+            href="https://scentfinance.gitbook.io"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Scent Finance features.</p>
+            <p>Find in-depth information about us.</p>
           </a>
 
-          <a href="https://docs.scent.finance" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>
-              Learn about Scent Finance in an interactive course with quizzes!
-            </p>
+          <a
+            href="https://twitter.com/scentfinance"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>Twitter &rarr;</h2>
+            <p>Announcements of all events.</p>
+          </a>
+
+          <a
+            href="https://t.me/+uIhdL6puD0M5NTM5"
+            className={styles.card}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h2>Telegram &rarr;</h2>
+            <p>Official announcement channel.</p>
           </a>
 
           <a
@@ -69,7 +87,7 @@ const Home: NextPage = () => {
             rel="noopener noreferrer"
           >
             <h2>Telegram &rarr;</h2>
-            <p>Join and discover Scent Finance telegram group.</p>
+            <p>Join and discover.</p>
           </a>
 
           <a
@@ -79,7 +97,7 @@ const Home: NextPage = () => {
             rel="noopener noreferrer"
           >
             <h2>Discord &rarr;</h2>
-            <p>Join the discord channel and get latest updates.</p>
+            <p>Join and get latest updates.</p>
           </a>
         </div>
       </main>
