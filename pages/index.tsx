@@ -25,14 +25,17 @@ const Home: NextPage = () => {
         options={PARTICLE_OPTIONS_MULTIPLE_IMAGES as any}
       />
       <Head>
-        <title>Scent Finance | NFT Battle | Staking | Farming</title>
-        <meta name="description" content="Decentralized Finance for Gaming" />
+        <title>Scent Finance | Decentralized Art | Decentralized Finance</title>
+        <meta
+          name="description"
+          content="Decentralized Art and Finance for Gaming"
+        />
         <link rel="icon" href="/favicon.png" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          {/* Welcome to <a href="https://scent.finance">Scent Finance</a> */}
+          <a href="https://scent.finance">Scent Finance</a>
         </h1>
 
         <p className={styles.description}>
