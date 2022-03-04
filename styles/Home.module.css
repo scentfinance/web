@@ -30,7 +30,7 @@
   display: flex;
   justify-content: center;
   /* align-items: center; */
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 .title a {
@@ -58,6 +58,7 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+  color: #eaeaea;
 }
 
 .code {
@@ -82,7 +83,7 @@
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: inherit;
+  color: #eaeaea;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
@@ -113,6 +114,10 @@
   margin-left: 0.5rem;
   margin-right: 0.25rem;
   margin-top: -0.225rem;
+}
+
+.socialIcon {
+  margin: 16px;
 }
 
 @media (max-width: 600px) {
